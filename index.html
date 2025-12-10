@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Väderprognos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <h1>Väderprognos runt världen</h1>
+      <form id="searchForm">
+        <input type="text" id="cityInput" placeholder=" Skriv in en stad ..." />
+        <button type="submit">sök</button>
+      </form>
+
+      <p id="error"></p>
+
+      <h2 id="cityName"></h2>
+      <p id="temperature"></p>
+      <p id="description"></p>
+
+      <img id="weatherIcon" src="" alt="Väderikon" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
